@@ -7,6 +7,7 @@ html, body, #content {
     color: whitesmoke;
 }
 
+
 .home-page, .menu-page, .contact-page {
     height: 100vh;
     width: 100%;
@@ -15,6 +16,28 @@ html, body, #content {
     align-items: center;
    background: url(./b696fa2549d493054f45.jpg);
    
+}
+
+.contact-page {
+    justify-content: center;
+}
+
+.contact {
+    background-color: rgba(43, 47, 92, 0.803); 
+    padding: 30px;
+    border: 5px solid rgba(71, 50, 29, 0.803);
+    border-radius: 15px;
+    font-size: larger;
+    
+}
+
+.contact:hover{
+    background-color:rgba(71, 50, 29, 0.803);
+    border: 5px solid rgba(43, 47, 92, 0.803);
+}
+
+.open {
+    margin-top:45px;
 }
 
 .main{
@@ -30,6 +53,7 @@ html, body, #content {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: xx-large;
+    font-weight: 600;
 }
 
 .beside {
@@ -78,7 +102,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(auto,1fr);
-    grid-gap: 25px
+    grid-auto-flow: dense;
+    grid-gap: 25px;
+    
 }
 
 .dish{
@@ -86,6 +112,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 300px;
+    min-width: 250px;
     border: 3px solid rgba(71, 50, 29, 0.803);
     border-radius: 15px;
     background-color: rgba(43, 47, 92, 0.803);
@@ -104,4 +131,8 @@ footer {
 
 .price {
     font-size: larger;
+}
+
+.wish {
+    margin-bottom: 20px;
 }

@@ -141,6 +141,11 @@ const menuPageLoad = () => {
     dish7.appendChild(price7);
 
 
+    const wish = document.createElement("h3");
+    wish.classList.add("wish");
+    wish.innerText = `"We hope you enjoy the creative and delicious sushi offerings at "Sushilicious Fun Roll." Bon appétit!"`
+    menuPage.appendChild(wish);
+
     //create footer
 
     const footer = document.createElement("footer");
