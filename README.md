@@ -1,2 +1,2 @@
-# Restaurant-Page
-A simple restaurant page using JS Dom manipulation along with Webpack
+# Restaurant-Site
+A simple restaurant website using JS Dom manipulation along with Webpack
