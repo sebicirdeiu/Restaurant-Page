@@ -1,11 +1,5 @@
-import homePageLoad from "./home-page-load";
-import menuPageLoad from "./menu";
-import loadContactPage from "./contact";
+import createTabs from "./tabs"
 
-
-loadContactPage()
-//menuPageLoad();
-//homePageLoad();
-
+createTabs()
 
 
