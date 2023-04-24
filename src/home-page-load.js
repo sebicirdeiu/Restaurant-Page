@@ -1,6 +1,6 @@
 import sushi from "./Images/rolls-sushi.jpg"
 
-const pageLoad = () => {
+const homePageLoad = () => {
 
 
     const content = document.querySelector("#content");
@@ -8,7 +8,7 @@ const pageLoad = () => {
     homePage.classList.add("home-page");
     content.appendChild(homePage);
 
-    //create header
+    //create header with tabs
     const header = document.createElement("div");
     header.classList.add("header");
     homePage.appendChild(header);
@@ -47,4 +47,4 @@ const pageLoad = () => {
     homePage.appendChild(footer);
 }
 
-export default pageLoad;
+export default homePageLoad;

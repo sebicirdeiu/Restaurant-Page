@@ -4,10 +4,10 @@ html, body, #content {
     box-sizing: border-box;
     height: 100vh;
     width: 100%;
-    color: white;
+    color: whitesmoke;
 }
 
-.home-page {
+.home-page, .menu-page, .contact-page {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -27,7 +27,9 @@ html, body, #content {
 }
 
 .header1 {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: xx-large;
 }
 
 .beside {
@@ -50,8 +52,56 @@ align-self: center;
 font-size:x-large;
 font-weight: 400;
 padding: 15px;
-border: 3px solid rgb(96, 37, 6);
+
 border-radius: 25px;
 row-gap: 4px;
+background-color: rgb(62, 34, 4);
+opacity: 85%;
 
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(71, 50, 29, 0.803) ;
+   
+}
+
+.dishes {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    grid-gap: 25px
+}
+
+.dish{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+    border: 3px solid rgba(71, 50, 29, 0.803);
+    border-radius: 15px;
+    background-color: rgba(43, 47, 92, 0.803);
+    padding: 10px;
+
+}
+
+.dish:hover {
+   background-color:rgba(71, 50, 29, 0.803);
+   border: 3px solid rgba(43, 47, 92, 0.803);
+}
+
+.ingredients {
+    font-size: large;
+}
+
+.price {
+    font-size: larger;
 }

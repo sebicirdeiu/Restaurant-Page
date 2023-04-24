@@ -1,5 +1,8 @@
-import pageLoad from "./home-page-load";
+import homePageLoad from "./home-page-load";
+import menuPageLoad from "./menu";
 
-pageLoad();
+menuPageLoad();
+//homePageLoad();
+
 
 
